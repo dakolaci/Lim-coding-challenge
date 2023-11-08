@@ -1,0 +1,78 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2% 15% 4% 15%;
+    font-family: Poppins;
+}
+
+.container{
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 24px;
+    padding: 5%;
+}
+
+#logo{
+    width: 200px;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    color: #00dd00;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav{
+    text-align: center;
+    background-color: #00dd00;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+main{
+    color: white;
+    font-size: 12px;
+}
+
+.scooter{
+    margin: 20px;
+}
+
+.scooter > .scooter-name{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.arrow:before {
+    content: "\21A6";
+}
+
+.full-bar{
+    width: 80%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #1ec31e;
+}
+
+.med-bar{
+    width: 50%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #f5b453;
+}
+
+.low-bar{
+    width: 25%;
+    height: 20px;
+    border-radius: 8px;
+    background-color: #be4141;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}
